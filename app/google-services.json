@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "740007941571",
+    "firebase_url": "https://casillerosapp.firebaseio.com",
+    "project_id": "casillerosapp",
+    "storage_bucket": "casillerosapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740007941571:android:dea4d9b458f5b0c5fed976",
+        "android_client_info": {
+          "package_name": "org.example.casillerosapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740007941571-0rqdg1rlfrpcife13meg010ghnbqec5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.example.casillerosapp",
+            "certificate_hash": "cbafb1f3f36f934ff27a6098b6f9d01ba1d4ccc7"
+          }
+        },
+        {
+          "client_id": "740007941571-g8bc0bgd0mcl3op1nsiir1nmri70uqhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmmGtkMr0NdzTqx1B_HWjdykSYQa4zjwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740007941571-g8bc0bgd0mcl3op1nsiir1nmri70uqhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

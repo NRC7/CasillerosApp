@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDetails"
+    tools:context=".views.ReservedLockerActivity">
+
+    <TextView
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/detailsStatusTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8sp"
+        android:layout_marginTop="110sp"
+        android:layout_marginEnd="8sp"
+        android:gravity="center"
+        android:padding="8sp"
+        android:text="DETALLE RESERVA"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/detailsIdTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailsStatusTv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24sp"
+        android:gravity="center"
+        android:padding="8sp"
+        android:text="ID"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/detailsUserTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailsIdTv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24sp"
+        android:gravity="center"
+        android:padding="8sp"
+        android:text="USUARIO"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:fontFamily="sans-serif-black"
+        android:textSize="16sp"
+        android:padding="12sp"
+        android:textColorHighlight="@color/colorAccent"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_ripple"
+        android:id="@+id/detailsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailsUserTv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30sp"
+        android:gravity="fill_vertical"
+        android:text="Terminar Reserva"
+         />
+
+</RelativeLayout>
